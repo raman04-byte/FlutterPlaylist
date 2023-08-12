@@ -8,8 +8,11 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+  
+
   @override
   Widget build(BuildContext context) {
+  final height=MediaQuery.of(context).size.height;
     return Scaffold(
         body: Container(
       width: MediaQuery.of(context).size.width,
@@ -20,7 +23,9 @@ class _HomePageState extends State<HomePage> {
           mainAxisAlignment: MainAxisAlignment.start,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            const Text("Upcoming Events"),
+            Text("Upcoming Events",style: TextStyle(
+              fontSize: height/10
+            ),),
             Container(
               decoration: const BoxDecoration(color: Colors.white),
               child: const Column(
