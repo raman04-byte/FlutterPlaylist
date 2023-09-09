@@ -9,7 +9,6 @@
 // }
 // var object_name=new class_name();
 
-import 'class_and _obj/stu.dart';
 import 'class_and _obj/another_class.dart';
 
 void main() {

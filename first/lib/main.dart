@@ -1,3 +1,4 @@
+import 'package:first/Screen/home.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -31,7 +32,8 @@ class MyApp extends StatelessWidget {
           // tested with just a hot reload.
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.blueAccent),
           useMaterial3: true),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      // home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const Home(),
     );
   }
 }
@@ -107,7 +109,6 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             const Text(
-              
               'You have pushed the button this many times:',
               style: TextStyle(fontSize: 20),
             ),

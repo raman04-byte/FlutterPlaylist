@@ -15,7 +15,7 @@ class _SecondScreenState extends State<SecondScreen> {
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          Text("Second Screen"),
+          const Text("Second Screen"),
           ElevatedButton(onPressed: (){
             Navigator.pop(context);
           }, child: const Text("Button"))

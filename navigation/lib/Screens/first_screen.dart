@@ -16,7 +16,7 @@ class _FirstScreenState extends State<FirstScreen> {
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          Text("First Screen"),
+          const Text("First Screen"),
           ElevatedButton(
               onPressed: () {
                 Navigator.push(
@@ -24,7 +24,7 @@ class _FirstScreenState extends State<FirstScreen> {
                     MaterialPageRoute(
                         builder: (context) => const SecondScreen()));
               },
-              child: Text("First Button"))
+              child: const Text("First Button"))
         ],
       ),
     );

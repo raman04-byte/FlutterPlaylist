@@ -79,7 +79,7 @@ class _FlexiExpandedState extends State<FlexiExpanded> {
                     color: Colors.green[300],
 
                   ),
-                  child: Icon(Icons.water),
+                  child: const Icon(Icons.water),
                 ),
               ),
             ],

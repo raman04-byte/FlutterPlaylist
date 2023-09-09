@@ -19,7 +19,7 @@ class _BoxContainersState extends State<BoxContainers> {
       decoration:
           BoxDecoration(color: Colors.amber[600], shape: BoxShape.rectangle),
       child:
-         BoxText()
+         const BoxText()
     );
   }
 }
