@@ -20,11 +20,11 @@ class _HomeState extends State<Home> {
         padding: const EdgeInsets.all(20),
         child: Column(
           children: [
-            // ElevatedButton(
-            //     onPressed: () {
-            //       print("You are pressing the button");
-            //     },
-            //     child: const Text("Button"))
+            ElevatedButton(
+                onPressed: () {
+                  print("You are pressing the button");
+                },
+                child: const Text("Button")),
             ElevatedButton(
               onPressed: () {
                 print("You are pressing the button");
